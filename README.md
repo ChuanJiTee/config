@@ -1,2 +1,2 @@
 # config-for-cloud
-store configuration here
+This is for configuration testing only.
