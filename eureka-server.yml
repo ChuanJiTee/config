@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    hostname: host.docker.internal
+  client:
+    registerWithEureka: false
+    fectchRegistery: false
+    ServiceUrl:
+      defaultZone: http://${eureka.instance.hostname}:{server.port}/eureka
+  server:
+    WaitTimeInMsWhenSyncEmpty: 5 
